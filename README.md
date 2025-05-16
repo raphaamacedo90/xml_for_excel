@@ -22,8 +22,8 @@ projeto/
 ├── nfs/                 # Pasta onde os arquivos XML devem ser colocados
 │   ├── arquivo1.xml
 │   ├── arquivo2.xml
-│
-├── gerar_excel.py       # Script principal
+│   ├── arquivo3.xml
+├── main.py       # Script principal
 ├── NotasFiscais.xlsx    # Arquivo Excel gerado (após rodar o script)
 └── README.md
 ```
@@ -33,9 +33,9 @@ projeto/
 ## ▶️ Como usar
 
 1. Coloque todos os arquivos `.xml` das notas fiscais na pasta `nfs/`.
-2. Execute o script `gerar_excel.py`:
+2. Execute o script `main.py`:
    ```bash
-   python gerar_excel.py
+   python main.py
    ```
 3. O Excel `NotasFiscais.xlsx` será criado na raiz do projeto.
 
